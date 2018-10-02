@@ -51,7 +51,7 @@ namespace PIP_Robotic_Controller
             try
             {                
                 CL_Global_Variables.Push_Button_1 = Convert.ToInt32(Message_Breakdown[0]);
-                CL_Global_Variables.X_Manual_Control = Invert(Convert.ToInt32(Message_Breakdown[1])/2);
+                CL_Global_Variables.X_Manual_Control = Convert.ToInt32(Message_Breakdown[1])/2;
                 CL_Global_Variables.Y_Manual_Control = Convert.ToInt32(Message_Breakdown[2])/2;
             }
             catch { }

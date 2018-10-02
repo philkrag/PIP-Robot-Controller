@@ -59,15 +59,5 @@ namespace PIP_Robotic_Controller.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Software_Banner {
-            get {
-                object obj = ResourceManager.GetObject("Software_Banner", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
