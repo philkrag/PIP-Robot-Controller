@@ -299,9 +299,8 @@
             // 
             // PB_Banner
             // 
-            this.PB_Banner.BackColor = System.Drawing.Color.White;
+            this.PB_Banner.BackColor = System.Drawing.SystemColors.ControlDark;
             this.PB_Banner.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PB_Banner.Image = global::PIP_Robotic_Controller.Properties.Resources.Software_Banner;
             this.PB_Banner.Location = new System.Drawing.Point(0, 38);
             this.PB_Banner.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PB_Banner.Name = "PB_Banner";
